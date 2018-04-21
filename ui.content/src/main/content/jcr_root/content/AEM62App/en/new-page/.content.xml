@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:cloudserviceconfigs="[[]]"
+        cq:contextHubPath="/etc/cloudsettings/default/contexthub"
+        cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
+        cq:lastModified="{Date}2017-04-04T20:03:17.333-05:00"
+        cq:lastModifiedBy="admin"
+        cq:lastReplicated="{Date}2017-04-04T20:02:54.408-05:00"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicationAction="Deactivate"
+        cq:template="/apps/AEM62App/templates/page-content"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:lastModified="{Date}2017-04-04T19:52:08.256-05:00"
+        jcr:lastModifiedBy="admin"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="New Page"
+        jcr:uuid="7351b7a5-ddc3-4a84-8208-b2c81c2bbc23"
+        sling:resourceType="AEM62App/components/structure/page">
+        <logo
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="AEM62App/components/structure/logo"/>
+        <title
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="AEM62App/components/content/title"/>
+        <topnav
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="AEM62App/components/structure/topnav"/>
+        <par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/parsys">
+            <text
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="AEM62App/components/content/text"
+                text="&lt;p>This is a content page&lt;/p>"
+                textIsRich="true"/>
+        </par>
+        <image
+            jcr:lastModified="{Date}2017-04-04T19:52:08.256-05:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>
